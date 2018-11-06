@@ -2,11 +2,16 @@
 
 namespace PENducation.Controllers
 {
-    public class ServicesController : Controller
+    public class CoursesController : Controller
     {
         public ActionResult Index()
         {
             return View();
         }
-	}
+
+        public ActionResult TestCourse()
+        {
+            return View();
+        }
+    }
 }

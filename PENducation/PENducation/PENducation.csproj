@@ -166,7 +166,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OtherController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
-    <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,9 +184,9 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="images\home-wallpaper1.jpg" />
-    <Content Include="images\home-wallpaper2.jpg" />
-    <Content Include="images\home-wallpaper3.jpg" />
+    <Content Include="imagesfile\home-wallpaper1.jpg" />
+    <Content Include="imagesfile\home-wallpaper2.jpg" />
+    <Content Include="imagesfile\home-wallpaper3.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Web.config" />
@@ -203,6 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Chat\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -221,7 +222,7 @@
     <Content Include="Views\About\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Services\Index.cshtml" />
+    <Content Include="Views\Courses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Contact\Index.cshtml" />
@@ -258,6 +259,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Other\FourOhFour.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Courses\TestCourse.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

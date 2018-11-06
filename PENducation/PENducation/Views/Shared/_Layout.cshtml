@@ -35,8 +35,16 @@
                     <li id="about">
                        @Html.ActionLink("About", "Index", "About")
                     </li>
-                    <li id="services">
-                        @Html.ActionLink("Courses", "Index", "Courses")
+                    <li id="services" class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li id="allCourses">
+                                @Html.ActionLink("All Courses", "Index", "Courses")
+                            </li>
+                            <li id="TestCourse">
+                                @Html.ActionLink("Test Course", "TestCourse", "Courses")
+                            </li>
+                        </ul>
                     </li>
                     <li id="contact">
                         @Html.ActionLink("Contact", "Index", "Contact")
